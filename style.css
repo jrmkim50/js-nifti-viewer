@@ -1,0 +1,33 @@
+#select {
+  font-family:sans-serif;
+  margin-bottom: 10px;
+}
+
+#select p {
+  text-decoration: underline;
+}
+
+input::file-selector-button {
+  font-weight: bold;
+  color: dodgerblue;
+  padding: 0.5em;
+  border: none;
+  border-radius: 3px;
+}
+
+input::file-selector-button:hover {
+  color: darkblue;
+  cursor: pointer;
+}
+
+#results {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#myCanvas {
+  border: 1px dashed black;
+  width: 200px;
+}
