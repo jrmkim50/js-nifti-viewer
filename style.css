@@ -25,9 +25,17 @@ input::file-selector-button:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 #myCanvas {
   border: 1px dashed black;
   width: 200px;
+}
+
+#loader {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
 }
