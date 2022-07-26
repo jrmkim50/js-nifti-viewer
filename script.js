@@ -113,7 +113,7 @@ function readFile(file) {
 
 const urlParams = new URLSearchParams(window.location.search);
 const proxyURL = "https://cors-proxy-express-server.herokuapp.com/getFile?fileurl="
-const downloadURL = `${proxyURL}${urlParams.get('downloadURL')}`;
+const downloadURL = `${proxyURL}${urlParams.get('downloadURL')}?raw=true`;
 
 fetch(downloadURL).then(res => res.arrayBuffer()).then(arrBuff => {
   console.log(arrBuff)
