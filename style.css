@@ -21,21 +21,23 @@ input::file-selector-button:hover {
 }
 
 #results {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: relative;
 }
 
 #myCanvas {
-  border: 1px dashed black;
-  width: 200px;
+  height: 200px;
+}
+
+#imageViewer {
+  position: relative;
 }
 
 #loader {
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   width: 100%;
 }

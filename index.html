@@ -9,9 +9,11 @@
 </head>
 <body>
   <div id="results">
-      <canvas id="myCanvas" width="100" height="100"></canvas><br />
+      <div id="imageViewer">
+        <canvas id="myCanvas" width="100" height="100"></canvas><br />
+        <img id="loader" src="./loader.gif" alt="Loading..." />
+      </div>
       <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-      <img id="loader" src="./loader.gif" alt="Loading..." />
   </div>
   <script src="./nifti-reader.min.js"></script>
   <script src="./script.js"></script>
